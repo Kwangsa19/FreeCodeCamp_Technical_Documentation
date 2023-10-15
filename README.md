@@ -1,2 +1,2 @@
 # FreeCodeCamp_Technical_Documentation
-Building the the Technical Documentation page 3rd project of "New Responsive Web Design"
+Passed the validation for both HTML and CSS from [ValidatorWe](https://validator.w3.org).
