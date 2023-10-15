@@ -1,0 +1,119 @@
+<!--Ketmanto Wangsa-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <meta charset ="UTF-8">
+
+  <!--Responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--For Edge browser-->
+  <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+ 
+  <title>Ketmanto's JS Docs</title>
+  <link rel="stylesheet" href="./styles.css">
+ 
+
+  </head>
+
+  <!--Create a navbar and a header-->
+  <nav id="navbar">
+  
+  <header>JS Docs </header>
+  
+  <!--bars-->
+  <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+  <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+  <li><a class="nav-link" href="#Variables">Variables</a></li>
+  <li><a class="nav-link" href="#Functions">Functions</a></li>
+  <li><a class="nav-link" href="#References">References</a></li>
+  </nav>
+
+  <body>
+
+  <!--Main section-->
+    <main id="main-doc">
+
+        <!--Section 1-->
+        <section class="main-section" id="Introduction">
+          <header id="Introduction">Introduction</header>
+              
+              <p>JavaScript is a cross-platform object-oriented scripting language.</p>
+              <p>It contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements</p>
+
+              <li>Client side extends the core language by supplying objects to control browser and DOM. For example, it allows an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation </li>
+              <li>Server-side extends the core language by supplying objects relevant to running JavaScript on a server. It allows an application to communicate a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server </li>
+        </section>
+        
+        <!--Section 2-->
+        <section class="main-section" id="Hello_World">
+          <header id="Hello_World">Hello World</header>
+              
+              <p>To get started with writing JavaScript, write "Helllo World" JavaScript code: </p>
+             <code>function greetme(yourname) { alert("Hello" + yourname); }
+               greetme("world");</code>
+              <p>Read it carefully and practice it!!!</p>
+        </section>
+
+        <!--Section 3-->
+        <section class="main-section" id="Variables">
+          <header id="Variables">Variables</header>
+              
+              <p>Variables are like symbolic names in your application. The name of variables, called identifiers, conform to certain rules </p>
+              <p>To declare the variables, please use the keyword "Var". For examples </p>
+              <code>
+                var x =42
+              </code>
+
+              <code>
+                let y = 13
+              </code>
+
+               <code>
+                if (true) { let y=5; } console.log(y); 
+              </code>
+
+              <code>
+              if (true) { let x=5; } console.log(x);
+              </code>
+        </section>
+
+        <!--Section 4-->
+        <section class="main-section" id="Functions">
+          <header id="Functions">Functions</header>
+
+              <p>To start declaring function, the keyword must come.</p>        
+             
+              <code>
+              function square(umber) { return number * number;}
+              </code>
+             
+              <p>The function square takes one argument, called number. This statement is to return the argument of the function, that is multiplied by itself.  </p>
+              
+              <code>
+              Return number * number;
+              </code>
+              
+             
+        </section>
+
+        <!--Section 5-->
+        <section class="main-section" id="References">
+          <header id="References">References</header>
+            
+            <p>A simple JavaScript documentation. </p>
+            <p>All the documentations are based from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a> and <a href="https://www.freecodecamp.org/">FreecodeCamp</a></p>
+      
+             <ul>
+                  <li>Other examples can be found on <a href="https://github.com/FreeCodeCamp-Solutions">FreeCodeCamp-Solutions</a>  </li>
+              <li>Readings from several textbooks </li>
+              <li>Youtube videos </li>
+               </ul>
+        </section>
+
+
+
+    </main>
+  </body>    
+</html>
