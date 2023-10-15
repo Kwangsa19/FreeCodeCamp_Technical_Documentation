@@ -1,0 +1,97 @@
+/*------CSS Global reset------ */
+* {
+  margin: 0;
+}
+
+/*------Body------ */
+body {
+  font-family: "Poppins", Tahoma, Geneva, sans-serif;
+  background: #f1f1f1;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/*------Navbar------ */
+#navbar {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+/*------Navbar a------ */
+#navbar a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/*------Hover a ------ */
+#navbar a:hover {
+  color: #f1f1f1;
+}
+
+/*------target header in a navbar------ */
+#navbar > header {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding: 5px;
+}
+/*------Main section------ */
+
+/*main-doc*/
+#main-doc {
+  margin-left: 200px;
+  padding: 2rem 1rem;
+
+}
+/*main-doc is an id. inside main doc, there is a class main-section. Inside it, there is a header. */
+#main-doc .main-section header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+/*main-doc is an id. inside main doc, there is a class main-section. */
+#main-doc .main-section  {
+  padding-left: 1.5rem;
+  color:#222;
+}
+/*main-doc is an id. inside main doc, there is a class main-section. Inside it, there is a p. */
+#main-doc .main-section p{
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+/*code*/
+#main-doc .main-section code {
+  display: block;
+  padding: 1.5rem; /* make the space a little bit bigger*/
+  text-align: left; 
+  background-color: #ddd;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/*------Responsive------ */
+
+/*smaller screens */
+@media only screen and (max-width: 400px) {
+  #navbar {
+  position: relative;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #111;
+  padding-top: 20px;
+  z-index: 1;
+}
+  #main-doc {
+  text-align: left;
+  margin: 0;
+ }
+}
